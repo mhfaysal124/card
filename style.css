@@ -1,0 +1,40 @@
+
+.header{
+    /* background-color: black; */
+    font-weight: 700;
+}
+.menue_item ul{
+    justify-content: space-between;
+}
+.bg_img{
+    background-image: url(img/smiley-woman-holding-ball-low-angle.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+img{
+    opacity: 0.5;
+}
+
+.social_icons{
+    position: relative;
+}
+.social_icons::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+.social_icons a{
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+.slider_section{
+    padding: 200px 0;
+}
